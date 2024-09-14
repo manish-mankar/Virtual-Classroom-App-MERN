@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "https://classroom-server.onrender.com/$1"
+      }
+    ]
+  }
+  

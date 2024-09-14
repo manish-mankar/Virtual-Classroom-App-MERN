@@ -1,0 +1,96 @@
+.navbar {
+    background-color:#f2f2f0;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    margin-bottom: 2%;
+  }
+  
+  .navbar-left {
+    display: flex;
+    margin-left: 10px;
+    
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2); /* Add a shadow on the right side */
+  }
+  .navbar-center {
+    display: flex;
+    align-items: center;
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2), 2px 0px 2px rgba(0, 0, 0, 0.2);
+    /* Add shadows on both sides */
+  }
+  
+  .navbar-right {
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2); /* Add a shadow on the left side */
+    display: flex;
+    align-items: center;
+
+  }
+  .nav-link-group2 li.active a {
+    color: #f00; /* Customize the active link color */
+  }
+  .nav-link-group2 li{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2), none; /* Add a shadow on the right side */
+  }
+  .nav-link-group2 li:hover {
+    cursor: pointer;
+  }
+
+  .nav-link-group {
+    display: flex;
+  }
+  .nav-link-group2 {
+    display: flex;
+    
+  }
+  .navbar-right .nav-link{
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2); /* Add a shadow on the right side */
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2); /* Add shadows on both sides */
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .navbar-left .nav-link {
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2), none; /* Add a shadow on the right side */
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .nav-link,.username {
+    padding: 5px;
+    color: #333;
+    text-decoration:double;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 5px;
+   
+  }
+  .username .nav-link {
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2); /* Add shadows on both sides */
+  }
+  .navbar-right2{
+    display: flex;
+    align-items: center;
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.2), 2px 0px 2px rgba(0, 0, 0, 0.2);
+  }
+.username2 {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2), none; /* Add a shadow on the right side */
+  }
+ 
+  
